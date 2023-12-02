@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA0645792B1B6FBB006444C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0645782B1B6FBB006444C3 /* AppDelegate.swift */; };
+		BA06457B2B1B6FBB006444C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06457A2B1B6FBB006444C3 /* SceneDelegate.swift */; };
+		BA06457D2B1B6FBB006444C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06457C2B1B6FBB006444C3 /* ViewController.swift */; };
+		BA0645802B1B6FBB006444C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA06457E2B1B6FBB006444C3 /* Main.storyboard */; };
+		BA0645822B1B6FBD006444C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA0645812B1B6FBD006444C3 /* Assets.xcassets */; };
+		BA0645852B1B6FBD006444C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA0645832B1B6FBD006444C3 /* LaunchScreen.storyboard */; };
+		BA0645902B1B6FBD006444C3 /* IgraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06458F2B1B6FBD006444C3 /* IgraTests.swift */; };
+		BA06459A2B1B6FBD006444C3 /* IgraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0645992B1B6FBD006444C3 /* IgraUITests.swift */; };
+		BA06459C2B1B6FBD006444C3 /* IgraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06459B2B1B6FBD006444C3 /* IgraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA06458C2B1B6FBD006444C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA06456D2B1B6FBB006444C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0645742B1B6FBB006444C3;
+			remoteInfo = Igra;
+		};
+		BA0645962B1B6FBD006444C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA06456D2B1B6FBB006444C3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA0645742B1B6FBB006444C3;
+			remoteInfo = Igra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA0645752B1B6FBB006444C3 /* Igra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Igra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0645782B1B6FBB006444C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA06457A2B1B6FBB006444C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BA06457C2B1B6FBB006444C3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA06457F2B1B6FBB006444C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA0645812B1B6FBD006444C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA0645842B1B6FBD006444C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA0645862B1B6FBD006444C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA06458B2B1B6FBD006444C3 /* IgraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA06458F2B1B6FBD006444C3 /* IgraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgraTests.swift; sourceTree = "<group>"; };
+		BA0645952B1B6FBD006444C3 /* IgraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IgraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA0645992B1B6FBD006444C3 /* IgraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgraUITests.swift; sourceTree = "<group>"; };
+		BA06459B2B1B6FBD006444C3 /* IgraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IgraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA0645722B1B6FBB006444C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0645882B1B6FBD006444C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0645922B1B6FBD006444C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA06456C2B1B6FBB006444C3 = {
+			isa = PBXGroup;
+			children = (
+				BA0645772B1B6FBB006444C3 /* Igra */,
+				BA06458E2B1B6FBD006444C3 /* IgraTests */,
+				BA0645982B1B6FBD006444C3 /* IgraUITests */,
+				BA0645762B1B6FBB006444C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA0645762B1B6FBB006444C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA0645752B1B6FBB006444C3 /* Igra.app */,
+				BA06458B2B1B6FBD006444C3 /* IgraTests.xctest */,
+				BA0645952B1B6FBD006444C3 /* IgraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA0645772B1B6FBB006444C3 /* Igra */ = {
+			isa = PBXGroup;
+			children = (
+				BA0645782B1B6FBB006444C3 /* AppDelegate.swift */,
+				BA06457A2B1B6FBB006444C3 /* SceneDelegate.swift */,
+				BA06457C2B1B6FBB006444C3 /* ViewController.swift */,
+				BA06457E2B1B6FBB006444C3 /* Main.storyboard */,
+				BA0645812B1B6FBD006444C3 /* Assets.xcassets */,
+				BA0645832B1B6FBD006444C3 /* LaunchScreen.storyboard */,
+				BA0645862B1B6FBD006444C3 /* Info.plist */,
+			);
+			path = Igra;
+			sourceTree = "<group>";
+		};
+		BA06458E2B1B6FBD006444C3 /* IgraTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA06458F2B1B6FBD006444C3 /* IgraTests.swift */,
+			);
+			path = IgraTests;
+			sourceTree = "<group>";
+		};
+		BA0645982B1B6FBD006444C3 /* IgraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA0645992B1B6FBD006444C3 /* IgraUITests.swift */,
+				BA06459B2B1B6FBD006444C3 /* IgraUITestsLaunchTests.swift */,
+			);
+			path = IgraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA0645742B1B6FBB006444C3 /* Igra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA06459F2B1B6FBD006444C3 /* Build configuration list for PBXNativeTarget "Igra" */;
+			buildPhases = (
+				BA0645712B1B6FBB006444C3 /* Sources */,
+				BA0645722B1B6FBB006444C3 /* Frameworks */,
+				BA0645732B1B6FBB006444C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Igra;
+			productName = Igra;
+			productReference = BA0645752B1B6FBB006444C3 /* Igra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA06458A2B1B6FBD006444C3 /* IgraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0645A22B1B6FBD006444C3 /* Build configuration list for PBXNativeTarget "IgraTests" */;
+			buildPhases = (
+				BA0645872B1B6FBD006444C3 /* Sources */,
+				BA0645882B1B6FBD006444C3 /* Frameworks */,
+				BA0645892B1B6FBD006444C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA06458D2B1B6FBD006444C3 /* PBXTargetDependency */,
+			);
+			name = IgraTests;
+			productName = IgraTests;
+			productReference = BA06458B2B1B6FBD006444C3 /* IgraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA0645942B1B6FBD006444C3 /* IgraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA0645A52B1B6FBD006444C3 /* Build configuration list for PBXNativeTarget "IgraUITests" */;
+			buildPhases = (
+				BA0645912B1B6FBD006444C3 /* Sources */,
+				BA0645922B1B6FBD006444C3 /* Frameworks */,
+				BA0645932B1B6FBD006444C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA0645972B1B6FBD006444C3 /* PBXTargetDependency */,
+			);
+			name = IgraUITests;
+			productName = IgraUITests;
+			productReference = BA0645952B1B6FBD006444C3 /* IgraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA06456D2B1B6FBB006444C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BA0645742B1B6FBB006444C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					BA06458A2B1B6FBD006444C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BA0645742B1B6FBB006444C3;
+					};
+					BA0645942B1B6FBD006444C3 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = BA0645742B1B6FBB006444C3;
+					};
+				};
+			};
+			buildConfigurationList = BA0645702B1B6FBB006444C3 /* Build configuration list for PBXProject "Igra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA06456C2B1B6FBB006444C3;
+			productRefGroup = BA0645762B1B6FBB006444C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA0645742B1B6FBB006444C3 /* Igra */,
+				BA06458A2B1B6FBD006444C3 /* IgraTests */,
+				BA0645942B1B6FBD006444C3 /* IgraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA0645732B1B6FBB006444C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0645852B1B6FBD006444C3 /* LaunchScreen.storyboard in Resources */,
+				BA0645822B1B6FBD006444C3 /* Assets.xcassets in Resources */,
+				BA0645802B1B6FBB006444C3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0645892B1B6FBD006444C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0645932B1B6FBD006444C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA0645712B1B6FBB006444C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA06457D2B1B6FBB006444C3 /* ViewController.swift in Sources */,
+				BA0645792B1B6FBB006444C3 /* AppDelegate.swift in Sources */,
+				BA06457B2B1B6FBB006444C3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0645872B1B6FBD006444C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0645902B1B6FBD006444C3 /* IgraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA0645912B1B6FBD006444C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA06459A2B1B6FBD006444C3 /* IgraUITests.swift in Sources */,
+				BA06459C2B1B6FBD006444C3 /* IgraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA06458D2B1B6FBD006444C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0645742B1B6FBB006444C3 /* Igra */;
+			targetProxy = BA06458C2B1B6FBD006444C3 /* PBXContainerItemProxy */;
+		};
+		BA0645972B1B6FBD006444C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA0645742B1B6FBB006444C3 /* Igra */;
+			targetProxy = BA0645962B1B6FBD006444C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA06457E2B1B6FBB006444C3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA06457F2B1B6FBB006444C3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA0645832B1B6FBD006444C3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA0645842B1B6FBD006444C3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA06459D2B1B6FBD006444C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA06459E2B1B6FBD006444C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA0645A02B1B6FBD006444C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Igra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azamat.Igra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA0645A12B1B6FBD006444C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Igra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azamat.Igra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BA0645A32B1B6FBD006444C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azamat.IgraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Igra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Igra";
+			};
+			name = Debug;
+		};
+		BA0645A42B1B6FBD006444C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azamat.IgraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Igra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Igra";
+			};
+			name = Release;
+		};
+		BA0645A62B1B6FBD006444C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azamat.IgraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Igra;
+			};
+			name = Debug;
+		};
+		BA0645A72B1B6FBD006444C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = azamat.IgraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Igra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA0645702B1B6FBB006444C3 /* Build configuration list for PBXProject "Igra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA06459D2B1B6FBD006444C3 /* Debug */,
+				BA06459E2B1B6FBD006444C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA06459F2B1B6FBD006444C3 /* Build configuration list for PBXNativeTarget "Igra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0645A02B1B6FBD006444C3 /* Debug */,
+				BA0645A12B1B6FBD006444C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0645A22B1B6FBD006444C3 /* Build configuration list for PBXNativeTarget "IgraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0645A32B1B6FBD006444C3 /* Debug */,
+				BA0645A42B1B6FBD006444C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA0645A52B1B6FBD006444C3 /* Build configuration list for PBXNativeTarget "IgraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA0645A62B1B6FBD006444C3 /* Debug */,
+				BA0645A72B1B6FBD006444C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA06456D2B1B6FBB006444C3 /* Project object */;
+}
