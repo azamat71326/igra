@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA00DB182B1DC29500702543 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DB172B1DC29500702543 /* File.swift */; };
+		BA00DB1A2B1DC32F00702543 /* ConcentrationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA00DB192B1DC32F00702543 /* ConcentrationGame.swift */; };
 		BA0645792B1B6FBB006444C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0645782B1B6FBB006444C3 /* AppDelegate.swift */; };
 		BA06457B2B1B6FBB006444C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06457A2B1B6FBB006444C3 /* SceneDelegate.swift */; };
 		BA06457D2B1B6FBB006444C3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA06457C2B1B6FBB006444C3 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA00DB172B1DC29500702543 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BA00DB192B1DC32F00702543 /* ConcentrationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationGame.swift; sourceTree = "<group>"; };
 		BA0645752B1B6FBB006444C3 /* Igra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Igra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0645782B1B6FBB006444C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA06457A2B1B6FBB006444C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 		BA06456C2B1B6FBB006444C3 = {
 			isa = PBXGroup;
 			children = (
+				BA00DB192B1DC32F00702543 /* ConcentrationGame.swift */,
+				BA00DB172B1DC29500702543 /* File.swift */,
 				BA0645772B1B6FBB006444C3 /* Igra */,
 				BA06458E2B1B6FBD006444C3 /* IgraTests */,
 				BA0645982B1B6FBD006444C3 /* IgraUITests */,
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA06457D2B1B6FBB006444C3 /* ViewController.swift in Sources */,
+				BA00DB182B1DC29500702543 /* File.swift in Sources */,
+				BA00DB1A2B1DC32F00702543 /* ConcentrationGame.swift in Sources */,
 				BA0645792B1B6FBB006444C3 /* AppDelegate.swift in Sources */,
 				BA06457B2B1B6FBB006444C3 /* SceneDelegate.swift in Sources */,
 			);
